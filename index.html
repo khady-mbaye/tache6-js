@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LES ARRAYS EN JAVASCRIPT</title>
+</head>
+<body>
+    
+
+    <script>
+       var mois = ["janvier" , "fevrier" , "mars" , "avril" , "mai" , "juin" , "juillet"];
+
+        //    1.Retirer le dernière valeur du tableau mois
+        mois.pop();
+
+        // 2.Afficher les valeurs du tableau en utilisant la méthode document.write
+        document.write(mois + ' ') ;
+        // 3.Ajouter la valeur ‘août’ à la fin du tableau
+        mois.push("aout");
+
+        // 4.Remplacer la valeur 'février' par ‘février’
+        mois[1] = "febriary";
+        
+        // 5.Afficher le nombre de valeurs du tableau en utilisant la méthode document.write
+        document.write('la longueur du tableau est ' + ' ' + mois.length);
+    </script>
+</body>
+</html>
